@@ -18,11 +18,21 @@ module.exports = {
         alt: 'Masterworks Online Help',
         src: 'img/MWLogo.png',
       },
-      items: [],
+      items: [
+        {
+          href: 'https://www.google.com',
+          //to: 'docs/introduction',
+          // Only one of "to" or "href" should be used
+          // href: 'https://www.facebook.com',
+          label: 'Print this page',
+          position: 'right',
+          activeBaseRegex: 'docs/(next|v8)',
+        },
+      ],
     },
     footer: {
       style: 'dark',
-      links: ['https://www.w3schools.com/'],
+      links: [],
       copyright: `Copyright © ${new Date().getFullYear()}.`,
     },
   },
