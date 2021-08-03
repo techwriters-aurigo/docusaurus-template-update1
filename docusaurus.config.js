@@ -15,14 +15,14 @@ module.exports = {
     navbar: {
       title: 'My Site',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Masterworks Online Help',
         src: 'img/MWLogo.png',
       },
       items: [],
     },
     footer: {
       style: 'dark',
-      links: [],
+      links: ['https://www.w3schools.com/'],
       copyright: `Copyright © ${new Date().getFullYear()}.`,
     },
   },
